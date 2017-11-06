@@ -1,0 +1,115 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+html {
+  height:100%;
+  font-size: 18px;
+}
+
+body {
+  background-size:cover;
+  background-position: center;
+  opacity: 0.88;
+  margin: 0;
+  display: block;
+  position: relative;
+  height: 100%;
+}
+
+body:after {
+  content: "";
+  background: url("../images/MainBackground_1.jpg") no-repeat;
+  background-size:cover;
+  background-position: center;
+  opacity: 0.8;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+
+main {
+  padding: 0 20px;
+}
+
+#content {
+  text-align:right;
+  padding-top:10%;
+}
+
+/* #content h1,h3 {
+  color:#fff;
+  text-shadow:
+       0 5px 5px #3C688F,
+     -1px -1px 0 #3C688F,
+      1px -1px 0 #3C688F,
+      -1px 1px 0 #3C688F,
+       1px 1px 0 #3C688F;
+} */
+
+#content h1 {
+  text-align: left;
+  font-weight: 800;
+  font-size: 2.5rem;
+  color: black;
+  margin-left: 2rem;
+  font-family: 'Great Vibes';
+}
+
+#content h3 {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+#content hr {
+  width:400px;
+  max-width: 80%;
+  border: 0;
+  height: 5px;
+  margin: 10px auto 30px;
+  background: #333;
+  background-image: linear-gradient(to right, #eee, #3C688F, #eee);
+}
+
+
+#content .buttons {
+  /* display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: left; */
+  text-align: left;
+  margin-left: 2rem;
+}
+
+#content .buttons a {
+  color: #000;
+  font-size: 1rem;
+}
+
+#content .button {
+  width: 200px;
+  border-radius: 5px;
+  padding: 0.5rem;
+}
+
+#content .button:hover {
+  font-style: italic;
+}
+
+
+
+#content .button i {
+  margin-right: 10px;
+}

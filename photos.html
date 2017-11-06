@@ -2,23 +2,17 @@
 <html>
 
   <head>
-    <!-- To make the bootstrap styled website responsive we need to always add the following line to the head tag before the title tag -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <title>Nasim Salehi</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- fontawsome -->
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <!-- Stylesheets -->
-    <link rel="stylesheet" type="text/css" href="assets/css/index.css">
-
-    <!-- External Stylesheets -->
-    <link href="assets/css/hamburgers.css" rel="stylesheet">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="assets/css/paintings.css">
 
     <!-- External Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700" rel="stylesheet">
 
     <!-- Favicons -->
     <link rel="apple-touch-icon" sizes="57x57" href="assets/favicons.ico/apple-icon-57x57.png">
@@ -39,32 +33,48 @@
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
+
   </head>
 
   <body>
+    <header>
+      <nav id="navbar">
+        <div>
+          <a href="index.html">Home</a>
+        </div>
+        <div>
+          <a href="paintings.html">Paintings</a>
+        </div>
+        <div>
+          <a href="poems.html">Poems</a>
+        </div>
+        <div class="active">
+          <a href="photos.html">Photos & Videos</a>
+        </div>
+      </nav>
+    </header>
 
     <main>
-      <div id="content">
-        <h1>Nasim Salehi</h1>
-        <div class="buttons">
-          <a href="paintings.html">
-            <div class="button">
-              <i class="fa fa-picture-o" aria-hidden="true"></i>Paintings
-            </div>
-          </a>
-          <a href="poems.html">
-            <div class="button">
-              <i class="fa fa-file-text-o" aria-hidden="true"></i>Poems
-            </div>
-          </a>
-          <a href="photos.html">
-            <div class="button">
-              <i class="fa fa-camera" aria-hidden="true"></i>Photos & Videos
-            </div>
-          </a>
+      <div id="paintings">
+        <div class="item">
+          <div>
+            <iframe src="http://www.youtube.com/embed/W7qWa52k-nE"
+              width="560" height="315" frameborder="0" allowfullscreen>
+            </iframe>
+          </div>
+          <div class="item-text">
+            <p class="item-date">Apr. 11, 2018</p>
+            <p class="item-title">Lay Lay</p>
+          </div>
         </div>
       </div>
     </main>
+
+    <footer>
+      <p>
+        <i class="fa fa-copyright" aria-hidden="true"></i> Copyright 2017 Nasim Salehi
+      </p>
+    </footer>
 
   </body>
 </html>
