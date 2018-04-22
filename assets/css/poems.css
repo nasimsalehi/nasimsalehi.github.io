@@ -66,6 +66,13 @@ main {
   padding: 10px 0;
 }
 
+.poem-title {
+  font-style: italic;
+  color: #3C688F;
+  padding: 10px 0;
+  font-size: 1.3rem;
+}
+
 .item-content hr {
   margin: 20px 0;
   width: 200px;
